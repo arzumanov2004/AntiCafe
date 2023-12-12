@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    /* align-items: center; */
+    gap: 20px;
+    justify-content: end;
+    text-align: center;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
+}
+.coffee{
+    width: 60%;
+    height: 60%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+}
+.coffee h1{
+    font-size: 100px;
+    color: white;
+}
+.coffee p{
+    color: white;
+    font-size: 20px;
+}
+.coffee button{
+    width: 20%;
+    height: 20%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+}
+.btn1:hover{
+    background-color: rgb(195, 160, 116);
+}
+@media screen and (min-width:300px) and (max-width:700px) {
+    .coffee h1{
+        font-size: 40px;
+    }
+    .coffee p{
+        font-size: 7px;
+    }
+    .coffee button{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:300px) {
+    .coffee h1{
+        font-size: 20px;
+    }
+    .coffee p{
+        font-size: 5px;
+    }
+    .coffee button{
+        font-size: 10px;
+    }
+}
+.section2{
+ width: 100%;
+ height: 100%;
+}
+.section2-1{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+.money3{
+    width: 240px;
+    height: auto;
+    text-align: center;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.section2-2{
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.section2-1 h1{
+    font-size: 45px;
+    font-weight: 400;
+   ;
+}
+.section3{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+}
+.money4 img{
+ width: 80%;
+ height: 35%;
+}
+.section3-1{
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 100%;
+    height: 270px;
+
+}
+.section4{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
+}
+.section4 img{
+    width: 20%;
+    height: 60%;
+}
+.section5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.money5{
+    width: 65%;
+    height: 300px;
+    margin-top: 30px;
+    padding-top: 30px;
+    
+    text-align: center;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+.money-p{
+    font-size: 60px;
+    color: rgb(186, 165, 132);
+}
+.section6{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+}
+.money6 img{
+ width: 80%;
+ height: auto;
+}
+.section6-1{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section6-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section6 h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.section6 img{
+    margin-bottom: 20px;
+}
+.money7 img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.row{
+    margin-top: 20px;
+}
+.section7-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.section7{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.section8{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.section8-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section8-1 img{
+    width: 16%;
+}
+.section9{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg);
+}
+.section9-1{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+.section9-1 p{
+    font-size: 23px;
+    font-weight: 400;
+}
+.section9-1 button{
+    width: 12%;
+    height: 30%;
+    border: none;
+    background-color: rgb(186, 161, 130);
+    color: white;
+}
+.section9-1 button:hover{
+    background-color: black;
+}
+.section10{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/footer-top-img-1.jpg);
+}
+.section10-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section10-1-1 img{
+    width: 20%;
+    margin-top: 40px;
+}
+.section10-1-1{
+    width: 50%;
+    height: auto;
+    color: white;
+}
+.section10-1-1 p{
+    margin: 20px;
+}
+.section10-1-1 h4{
+    margin-top: 40px;
+}
+.section10-1-1 input{
+    width: 47%;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-bottom: 50px;
+}
+.section10-1-1 button{
+    width: 8%;
+    height: 60px;
+    
+}
+.section10-1-1 button i{
+    font-size: 100%;
+}
+.section10-1-1 button:hover{
+    background-color: rgb(186, 161, 130);
+}
+footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    color: white;
+}
+.footer1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+.footer1-1 i{
+    margin-left: 20px;
+}
